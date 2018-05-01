@@ -15,18 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ML.h">
+    <ClInclude Include="Point3D.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="point.h">
+    <ClInclude Include="Vector3D.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ml.cpp">
+    <ClCompile Include="ml.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="point.cpp">
+    <ClCompile Include="vector3d.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point3d.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
